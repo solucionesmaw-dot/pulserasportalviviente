@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Portal de Abundancia',
-  description: 'Un viaje de 4 noches para transformar tu realidad.',
+  title: 'Pulseras Energéticas Cósmicas',
+  description: 'Pulseras artesanales cargadas energéticamente por seres cósmicos.',
 };
 
 export default function RootLayout({
