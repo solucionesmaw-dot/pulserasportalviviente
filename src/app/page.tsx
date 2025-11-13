@@ -112,7 +112,7 @@ function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <a href="/" className="flex items-center gap-2">
           <Sparkles className="h-6 w-6 text-primary" />
-          <span className="font-headline text-xl font-bold text-primary-foreground">
+          <span className="font-headline text-xl font-bold text-foreground">
             Pulseras Cósmicas
           </span>
         </a>
@@ -175,7 +175,7 @@ function BraceletsSection({ bracelets, onReserve }: { bracelets: Bracelet[], onR
                     </div>
                     )}
                     <CardHeader>
-                    <CardTitle className="font-headline text-xl text-primary-foreground">{bracelet.title}</CardTitle>
+                    <CardTitle className="font-headline text-xl text-card-foreground">{bracelet.title}</CardTitle>
                     <CardDescription className="text-sm italic">{bracelet.chargedBy}</CardDescription>
                     </CardHeader>
                     <CardContent className="flex-grow space-y-4">
@@ -215,7 +215,7 @@ function AboutSection() {
     return (
         <section id="sobre-nosotros" className="bg-secondary/50 py-16 md:py-24">
             <div className="container mx-auto max-w-4xl px-4 text-center">
-                <h2 className="font-headline text-3xl font-bold text-primary-foreground md:text-4xl">
+                <h2 className="font-headline text-3xl font-bold text-foreground md:text-4xl">
                     Elaboración y Carga Energética
                 </h2>
                 <div className="mt-6 space-y-4 text-left text-muted-foreground md:text-lg">
